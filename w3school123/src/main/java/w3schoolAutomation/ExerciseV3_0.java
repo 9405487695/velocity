@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ExerciseV3_0 {
-	//private WebDriver driveG;
 	private WebDriver driveG;
 	
 	@FindBy (xpath = "(//button[text()='Show Answer'])[2]")
