@@ -7,8 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CreateAWebSite {
 	
-	//@FindBy (xpath ="//span[text()='Log in']")
-	@FindBy (xpath ="//span[text()='Log in123']")
+	@FindBy (xpath ="//span[text()='Log in']")
 	private WebElement logIn;
 	
 	@FindBy (xpath ="//a[text()='Get Started for Free']")
