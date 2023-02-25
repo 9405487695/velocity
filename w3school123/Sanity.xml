@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel ="classes">
+  <test  name="Test1">
+  <parameter name="browser123" value="chrome"></parameter>
+    <classes>
+      <class name="CrossBrowserTesting.Verifyw3LinksOnSignUpAndLoginPage"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test2">
+  <parameter name="browser123" value="firefox"></parameter>
+    <classes>
+      <class name="CrossBrowserTesting.Verifyw3LinksOnSignUpAndLoginPage"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
