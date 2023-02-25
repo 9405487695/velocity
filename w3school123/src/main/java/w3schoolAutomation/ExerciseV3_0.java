@@ -8,8 +8,12 @@ import org.openqa.selenium.support.PageFactory;
 public class ExerciseV3_0 {
 	private WebDriver driveG;
 	
+	//@FindBy (xpath = "(//button[text()='Show Answer'])[2]")
+//	private WebElement showAnswer;
+	
 	@FindBy (xpath = "(//button[text()='Show Answer'])[2]")
 	private WebElement showAnswer;
+	
 	
 	@FindBy (xpath ="(//button[text()='Hide Answer'])[2]")
 	private WebElement hideAnswer;
